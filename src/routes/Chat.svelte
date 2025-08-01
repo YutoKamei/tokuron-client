@@ -26,11 +26,11 @@
                 ログアウト
             </button>
         </div>
-    </div>
-    <div class="main">
-        {#if chatId}
-            <MessageList chatId={chatId}/>
-        {/if}
+        <div class="main">
+            {#if chatId}
+                <MessageList chatId={chatId}/>
+            {/if}
+        </div>
     </div>
 </div>
 
